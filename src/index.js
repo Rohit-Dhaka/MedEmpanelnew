@@ -18,6 +18,8 @@ import ServicesSix from './components/ServicesSix.jsx';
 import ServicesSeven from './components/ServicesSeven.jsx';
 import ServicesEight from './components/ServicesEight.jsx';
 import ServicesNine from './components/ServicesNine.jsx';
+import HomePages from './page/HomePages.jsx';
+import AyushmanInfo from './components/AyushmanInfo.jsx';
 
 
 
@@ -26,7 +28,9 @@ import ServicesNine from './components/ServicesNine.jsx';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
-      <Route path='' element={<Home />} />
+      {/* <Route path='' element={<Home />} /> */}
+      <Route path='' element={<HomePages/>} />
+      <Route path='resources' element={<AyushmanInfo/>} />
       <Route path='about' element={<About />} />
       <Route path='contact' element={<Contact />} />
       <Route path='servicesOne' element={<ServicesOne/>}/>
@@ -38,7 +42,6 @@ const router = createBrowserRouter(
       <Route path='servicesSeven' element={<ServicesSeven/>}/>
       <Route path='servicesEight' element={<ServicesEight/>}/>
       <Route path='servicesNine' element={<ServicesNine/>}/>
-
        
     </Route>
   )

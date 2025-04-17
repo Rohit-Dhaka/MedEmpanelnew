@@ -44,25 +44,29 @@ export default function Header() {
       
 
   return (
-    <header className="  z-50 top-0">
+    <header className="  z-50 top-0  relative">
       <nav className="bg-white border-gray-200 px-4 lg:px-6 py-6">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center">
-            Logo
+          <div className="">
+            <h5 className=" text-[26px] text-[#074ba5] font-bold tracking-[1.5px]">MedEmpanel</h5>
+            <h6 className=" text-[8px] font-semibold text-[#d30785] mt-[-6px]">HEAlTHCARE & EMPANELMENT CONSULTANCY</h6>
+            </div>
           </Link>
 
-          {/* Nav Menu */}
+          
           <div
             className={`${
-              show ? "right-0" : "right-[-100%]"
-            } flex max-lg:absolute max-lg:w-full max-lg:h-screen max-lg:top-0 max-lg:flex-col max-lg:bg-gray-800 max-lg:text-white max-lg:z-10 max-lg:justify-center max-lg:items-center max-lg:transition-all max-lg:duration-300 lg:gap-[215px] items-center`}
+              // show ? "right-0" : "right-[-100%]"
+              show ? "shownav" : "hidenav"
+            } flex max-lg:absolute max-lg:w-full  max-lg:h-screen max-lg:top-0 max-lg:flex-col max-lg:bg-white max-lg:text-white max-lg:z-10 max-lg:justify-center max-lg:items-center max-lg:transition-all max-lg:right-0 max-lg:duration-300 lg:gap-[215px] items-center`}
           >
-            <ul className="flex gap-8 max-lg:flex-col max-lg:items-center">
+            <ul className="flex lg:gap-8 gap-4 max-lg:flex-col max-lg:items-center">
               <li>
                 <NavLink
                   to="/"
                   onClick={handlelink}
-                  className={({ isActive }) => `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-[#9561ED]" : "text-gray-700"}  hover:bg-gray-50 lg:hover:bg-transparent   lg:p-0`}
+                  className={({ isActive }) => `block  duration-200 ${isActive ? "text-[#9561ED]" : "text-gray-700"}  hover:bg-gray-50 lg:hover:bg-transparent   lg:p-0`}
                   
 
                 >
@@ -74,9 +78,9 @@ export default function Header() {
                   to="/about"
                   onClick={handlelink}
                   className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 ${
+                    `block  duration-200 ${
                       isActive ? "text-[#9561ED]" : "text-gray-700"
-                    }  hover:bg-gray-50 lg:hover:bg-transparent   lg:p-0`
+                    }  `
                   }
                 >
                   About
@@ -110,67 +114,67 @@ export default function Header() {
                   </button>
 
                   {isOpen && (
-                    <div className="lg:absolute lg:left-0 w-80 mt-2  lg:bg-white rounded-md shadow-lg z-50 py-5">
+                    <div className="lg:absolute lg:left-0  lg:mt-2 w-80  lg:bg-white rounded-md lg:shadow-lg z-50 py-2 max-lg:mx-[-12px] max-lg:flex max-lg:flex-col max-lg:gap-2 duration-300 ease-linear">
                       <NavLink
                         to="/servicesOne"
                         
-                        className="block py-1 px-3 hover:bg-purple-200 duration-300"
+                        className="block lg:py-1 px-3 text-black hover:bg-purple-200 duration-300"
                         onClick={handleClick}
                       >
                         Ayushman empanelment
                       </NavLink>
                       <NavLink
                         to="/servicesTwo"
-                        className="block py-1 px-3 hover:bg-purple-200 duration-300"
+                        className="block lg:py-1 px-3 text-black hover:bg-purple-200 duration-300"
                         onClick={handleClick}
                       >
                         Entry level NABH
                       </NavLink>
                       <NavLink
                         to="/servicesThree"
-                        className="block py-1 px-3 hover:bg-purple-200 duration-300"
+                        className="block lg:py-1 px-3 text-black hover:bg-purple-200 duration-300"
                         onClick={handleClick}
                       >
                         Full NABH
                       </NavLink>
                       <NavLink
                         to="/servicesFour"
-                        className="block py-1 px-3 hover:bg-purple-200 duration-300"
+                        className="block lg:py-1 px-3 text-black hover:bg-purple-200 duration-300"
                         onClick={handleClick}
                       >
                         Insurance empanelment
                       </NavLink>
                       <NavLink
                         to="/servicesFive"
-                        className="block py-1 px-3 hover:bg-purple-200 duration-300"
+                        className="block lg:py-1 px-3 text-black hover:bg-purple-200 duration-300"
                         onClick={handleClick}
                       >
                         TPA empanelment
                       </NavLink>
                       <NavLink
                         to="/servicesSix"
-                        className="block py-1 px-3 hover:bg-purple-200 duration-300"
+                        className="block lg:py-1 px-3 text-black hover:bg-purple-200 duration-300"
                         onClick={handleClick}
                       >
                         NABL
                       </NavLink>
                       <NavLink
                         to="/servicesSeven"
-                        className="block py-1 px-3 hover:bg-purple-200 duration-300"
+                        className="block lg:py-1 px-3 text-black hover:bg-purple-200 duration-300"
                         onClick={handleClick}
                       >
                         Hospital Software
                       </NavLink>
                       <NavLink
                         to="/servicesEight"
-                        className="block py-1 px-3 hover:bg-purple-200 duration-300"
+                        className="block lg:py-1 px-3 text-black hover:bg-purple-200 duration-300"
                         onClick={handleClick}
                       >
                         Rohini registration
                       </NavLink>
                       <NavLink
                         to="/servicesNine"
-                        className="block py-1 px-3 hover:bg-purple-200 duration-300"
+                        className="block lg:py-1 px-3 text-black hover:bg-purple-200 duration-300"
                         onClick={handleClick}
                       >
                         Staffing & Hospital credential setup info
@@ -181,12 +185,24 @@ export default function Header() {
               </li>
               <li>
                 <NavLink
+                  to="/resources"
+                  onClick={handlelink}
+                  className={({ isActive }) => `block  duration-200 ${isActive ? "text-[#9561ED]" : "text-gray-700"}  hover:bg-gray-50 lg:hover:bg-transparent   lg:p-0`}
+                  
+
+                >
+                  Resources
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
                   to="/contact"
                   className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 ${
+                    `block  duration-200 ${
                       isActive ? "text-[#9561ED]" : "text-gray-700"
                     }  hover:bg-gray-50 lg:hover:bg-transparent  lg:p-0`
                   }
+                  onClick={handleClick}
                 >
                   Contact
                 </NavLink>
@@ -205,18 +221,18 @@ export default function Header() {
             onClick={() => setShow(!show)}
           >
             <span
-              className={`block w-[30px] h-[3px] bg-[#9561ED] transition-all ease-linear ${
-                show ? "rotate-45 translate-y-2" : ""
+              className={`block w-[30px] h-[3px] bg-[#9561ED] transition-all ease-linear rounded-md ${
+                show ? "rotate-45 translate-y-[9px]" : ""
               }`}
             ></span>
             <span
-              className={`block w-[30px] h-[3px] bg-[#9561ED] my-[6px] transition-all ease-linear ${
-                show ? "opacity-0" : ""
+              className={`block w-[30px] h-[3px] bg-[#9561ED] my-[6px] transition-all ease-linear rounded-md ${
+                show ? " -translate-x-[50px] duration-300 opacity-0" : ""
               }`}
             ></span>
             <span
-              className={`block w-[30px] h-[3px] bg-[#9561ED] transition-all ease-linear ${
-                show ? "-rotate-45 -translate-y-2" : ""
+              className={`block w-[30px] h-[3px] bg-[#9561ED] transition-all ease-linear rounded-md ${
+                show ? "-rotate-45 -translate-y-[9px]" : ""
               }`}
             ></span>
           </div>

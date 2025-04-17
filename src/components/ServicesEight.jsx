@@ -1,7 +1,7 @@
 import React from 'react'
 import Ellipes21 from '../assets/img/Ellipes21.svg';
 import Ellipes22 from '../assets/img/Ellipes22.svg';
-
+import RohiniLogo from '../assets/img/RohiniLogo.jpg'
 const ServicesEight = () => {
   return (
     <section className=" relative">
@@ -15,8 +15,8 @@ const ServicesEight = () => {
           Healthcare Facility Registration
           </span>
         </h2>
-        <div className=" flex justify-center">
-          {/* <img src={} alt="" className="w-[60%]" /> */}
+        <div className=" flex justify-center py-[100px]">
+          <img src={RohiniLogo} alt="" className="w-[60%]" />
         </div>
         <h6 className="max-w-[800px] text-lg text-[#323232] text-center pb-[120px]">
          

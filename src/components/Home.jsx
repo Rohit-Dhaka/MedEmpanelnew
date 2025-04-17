@@ -8,18 +8,20 @@ import Hero from '../assets/img/Hero.jpeg'
 import About from './About'
 import Services from './Services'
 import AyushmanInfo from './AyushmanInfo'
+import Ellipes22 from '../assets/img/Ellipes22.svg';
 
 const Home = () => {
   return (
-    <section className="relative ">
-      <div className="container mx-auto relative px-4">
+    <section className="relative">
+      {/* <img src={Ellipes22} alt="" className="absolute left-0 top-[-10%]" /> */}
+      <div className="container  ">
         <div className="flex flex-col items-center text-center">
           <h1
-            className="pt-11 text-fs4xl   font-bold   leading-[100px] text-black font-Plus"
+            className="pt-11 lg:text-fs4xl text-[48px]   font-bold   lg:leading-[100px] text-black font-Plus"
             id="home"
           >
             Empowering Healthcare Solutions 
-            <span className="text-[#9064EE] block">for  Your Needs</span>
+            <span className="text-[#906 4EE] text-[#9562EE] block">for  Your Needs</span>
           </h1>
 
           <h6 className="text-[#4C4C4C] pt-3 max-w-3xl text-base leading-6 font-normal font-Plus">
@@ -43,14 +45,13 @@ const Home = () => {
             </div>
           </div>
 
-          <button className="text-md text-white font-bold rounded-full bg-[#9064EE] px-8 py-3 mb-6 lg:mb-12 font-Plus hover:bg-[#7a4dd7] transition duration-300">
+          <button className="text-md text-white font-bold rounded-full bg-[#9562EE] px-8 py-3 mb-6 lg:mb-12 font-Plus hover:bg-[#7a4dd7] transition duration-300">
             Get Started
           </button>
+
+          
         </div>
-      </div>
-      <About/>
-      <Services/>
-      {/* <AyushmanInfo/> */}
+      </div>    
     </section>
   )
 }

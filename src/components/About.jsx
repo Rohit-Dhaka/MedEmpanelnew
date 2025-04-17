@@ -13,9 +13,9 @@ const About = () => {
       <img src={Ellipes22} alt="" className="absolute left-0 top-[20%] animate-pulse " />
       <img src={Ellipes23} alt="" className="absolute right-0 bottom-0 animate-pulse" />
 
-      <div className="container mx-auto px-4">
+      <div className="container ">
         {/* Mission Section */}
-        <div className="flex flex-wrap items-center pt-5 md:pt-20">
+        <div className="flex flex-wrap flex-row mx-[-12px] items-center pt-5 md:pt-20">
           <div className="w-full md:w-6/12 px-3 relative">
             {/* You can insert your image or illustration here */}
             <img src={Group1} alt="" className='w-full' />
@@ -27,15 +27,17 @@ const About = () => {
                 Our <span className="text-[#9064EE]">Mission</span>
               </h2>
               <p className="text-base leading-6 text-[#4C4C4C] pt-3 pb-10 max-w-xl font-sans">
-              Our mission is to provide compassionate, high-quality, and accessible healthcare to our community. We are committed to promoting wellness, preventing illness, and restoring health by delivering patient-centered care through innovation, integrity, and excellence. We strive to treat every individual with dignity and respect, ensuring a safe and healing environment for patients, families, and staff alike
+              Our mission is to empower healthcare institutions by streamlining their journey towards empanelment and accreditation. We are committed to providing expert consultancy services for Ayushman Bharat, NABH, NABL, TPA, and other healthcare regulatory frameworks—ensuring operational excellence, compliance, and enhanced patient care through trusted partnerships.
+
+Our vision is to become the leading force in healthcare empanelment and accreditation consulting across India. We aim to bridge the gap between hospitals and regulatory bodies by offering strategic, efficient, and transparent solutions. Through our expertise in Ayushman Bharat, NABH, NABL, TPA, and other key accreditation pathways, we strive to simplify complex processes and empower healthcare providers to meet the highest national and international standards. We envision a healthcare ecosystem where every hospital—big or small—can access quality-focused, patient-centric growth with confidence and compliance at its core.
               </p>
               <button className="bg-[#9064EE] text-white py-2 px-6 rounded-full font-bold">Read More</button>
             </div>
           </div>
         </div>
 
-        {/* Vision Section */}
-        <div className="flex flex-wrap-reverse items-center pt-10 lg:pt-36 pb-10 lg:pb-36">
+        
+        <div className="flex flex-wrap-reverse items-center mx-[-12px] pt-10 lg:pt-36 pb-10 lg:pb-36">
           <div className="w-full lg:w-5/12 px-3 pt-4 lg:pt-0 z-10">
             <div className="lg:max-w-xl">
               <h2 className="text-3xl lg:text-4xl font-bold leading-[52px] text-black font-sans">

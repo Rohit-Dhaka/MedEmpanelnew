@@ -1,6 +1,7 @@
 import React from 'react'
 import Ellipes21 from '../assets/img/Ellipes21.svg';
 import Ellipes22 from '../assets/img/Ellipes22.svg';
+import Tpa from '../assets/img/tpa-logo.jpg'
 
 const ServicesFour = () => {
   return (
@@ -16,7 +17,7 @@ const ServicesFour = () => {
           </span>
         </h2>
         <div className=" flex justify-center">
-          {/* <img src={} alt="" className="w-[60%]" /> */}
+          <img src={Tpa} alt="" className="w-[60%]" />
         </div>
         <h6 className="max-w-[800px] text-lg text-[#323232] text-center pb-[120px]">
         Expand your healthcare services by becoming an empaneled provider with Third-Party Administrators (TPAs). TPA empanelment allows hospitals and clinics to offer cashless and hassle-free treatment to insured patients, ensuring timely reimbursements and improved patient access to care.

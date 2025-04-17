@@ -10,7 +10,12 @@ const Footer = () => {
       <div class="flex flex-row flex-wrap mx-[-12px] md:pt-[91px]  lg:pb-[153px] pt-5 pb-4 pb-md-5">
         <div class="lg:w-4/12 w-full z-1  px-3">
           {/* <img src="./assets/img/footerlogo.svg" alt="logo-image"> */}
-          <a href="" className='text-white'>Logo</a>
+          <a href="" className='text-white'>
+          <div className="">
+            <h5 className=" text-[26px] text-[#074ba5] font-bold tracking-[1.5px]">MedEmpanel</h5>
+            <h6 className=" text-[8px] font-semibold text-[#d30785] mt-[-6px]">HEAlTHCARE & EMPANELMENT CONSULTANCY</h6>
+            </div>
+          </a>
           <h6 class="fw-normal leading-[24px] text-white opacity-75 pt-3  font-Plus">Committed to improving your health and well-being with expert care and trusted resources. Your health is our priority—providing reliable solutions for a healthier, happier life.</h6>
           <div class="flex gap-3 pt-4">
             <a href="https://www.instagram.com/medempanel?igsh=cW14c29zdDZxOGJx" target='_blank' class=" hover:shadow-media duration-300 ease-linear hover:scale-105  rounded-full">
@@ -75,12 +80,12 @@ const Footer = () => {
         <div class="lg:w-3/12 w-full pt-4  lg:pt-0 z-1 px-3">
           <h5 class="text-white font-bold text-md leading-[24px]  font-Plus">Contact Info</h5>
           <div class="flex gap-3 align-items-center pt-3">
-            <a href="tel:+123456789"><PhoneIcon/></a>            
+            <a href="tel:+8950960627"><PhoneIcon/></a>            
             <a href="tel:+8950960627" class="text-[#CCCCCC] text-md leading-[24px] fw-normal font-Plus">+8950960627</a>
           </div>
           <div class="flex gap-3 align-items-center pt-2">            
             <a href="mailto:info@noblemindit.gmail.com"><EmailIcon/></a>
-            <a href="mailto:info@noblemindit.gmail.com"  class="text-[#CCCCCC] text-md leading-[24px] fw-normal font-Plus  ">infomedempanel.gmail.com</a>            
+            <a href="mailto:info@noblemindit.gmail.com"  class="text-[#CCCCCC] text-md leading-[24px] fw-normal font-Plus  ">info@medempanel.gmail.com</a>            
           </div>
         </div>
       </div>
