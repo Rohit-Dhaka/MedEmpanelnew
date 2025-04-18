@@ -7,7 +7,10 @@ import Enterlevel from "../assets/img/Enterlevel.jpeg";
 import Nabhlogo from "../assets/img/Nabhlogo.png";
 import Tpa from '../assets/img/tpa-logo.jpg'
 import RohiniLogo from '../assets/img/RohiniLogo.jpg'
-
+import Medical from '../assets/img/Medical.jpeg'
+import Hrservers from '../assets/img/Hrservers.jpeg'
+import Nabl from '../assets/img/Nabl.jpeg'
+import Sofware from '../assets/img/sofware.png'
 const Services = () => {
   return (
     <section class="bg-[#EFEFEF] relative overflow-hidden ">
@@ -89,7 +92,7 @@ const Services = () => {
             <Link to="/servicesFive">
               <div class="card h-full pb-[44px] pt-[20px] px-[20px] border-[1px] border-solid border-gray-600 bg-[#EFEFEF]  duration-300 ease-linear  rounded-[16px] h-100 hover:border-transparent hover:shadow-[0px_9px_50px_0px_#0000001F] group">
                 <div class="min-box flex items-center justify-center  rounded-full w-[72px] h-[72px] bg-[#E0D9EF] transition-all duration-[900ms] ease-linear group-hover:scale-105 overflow-hidden ">
-                  <img src={Enterlevel} alt="" />
+                  <img src={Nabl} alt="" />
                 </div>
                 <h5 class="text-black text-xl font-bold  pt-5 pb-2 leading-[33px] font-Plus ">
                 Nabl
@@ -104,7 +107,8 @@ const Services = () => {
             <Link to="/servicesSix">
               <div class="card h-full pb-[44px] pt-[20px] px-[20px] border-[1px] border-solid border-gray-600 bg-[#EFEFEF]  duration-300 ease-linear  rounded-[16px] h-100 hover:border-transparent hover:shadow-[0px_9px_50px_0px_#0000001F] group">
                 <div class="min-box flex items-center justify-center  rounded-full w-[72px] h-[72px] bg-[#E0D9EF] transition-all duration-[900ms] ease-linear  group-hover:scale-105 overflow-hidden ">
-                  <img src={Nabhlogo} alt="" />
+                  <img src={Sofware} alt="" />
+                  
                 </div>
                 <h5 class="text-black text-xl font-bold  pt-5 pb-2 leading-[33px] font-Plus ">
                 Hospital software
@@ -119,7 +123,7 @@ const Services = () => {
             <Link to="/servicesSeven">
               <div class="card h-full  pb-[44px] pt-[20px] px-[20px] border-[1px] border-solid border-gray-600 bg-[#EFEFEF]  duration-300 ease-linear  rounded-[16px] h-100 hover:border-transparent hover:shadow-[0px_9px_50px_0px_#0000001F] group">
                 <div class="min-box flex items-center justify-center  rounded-full w-[72px] h-[72px] bg-[#E0D9EF] transition-all duration-[900ms] ease-linear group-hover:scale-105 overflow-hidden  ">
-                  <img src={PMJAY} alt="" />
+                  <img src={Medical} alt="" />
                 </div>
                 <h5 class="text-black text-xl font-bold  pt-5 pb-2 leading-[33px] font-Plus ">
                 Insurance empanelment
@@ -149,7 +153,7 @@ const Services = () => {
             <Link to="/servicesNine">
               <div class="card h-full pb-[44px] pt-[20px] px-[20px] border-[1px] border-solid border-gray-600 bg-[#EFEFEF]  duration-300 ease-linear  rounded-[16px] h-100 hover:border-transparent hover:shadow-[0px_9px_50px_0px_#0000001F] group">
                 <div class="min-box flex items-center justify-center  rounded-full w-[72px] h-[72px] bg-[#E0D9EF] transition-all duration-[900ms] ease-linear  group-hover:scale-105 overflow-hidden ">
-                  <img src={Nabhlogo} alt="" />
+                  <img src={Hrservers} alt="" />
                 </div>
                 <h5 class="text-black text-xl font-bold  pt-5 pb-2 leading-[33px] font-Plus ">
                 Staffing and hospital credientail information

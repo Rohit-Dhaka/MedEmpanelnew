@@ -3,7 +3,8 @@ import Ellipes4 from '../assets/img/Ellipes4.svg'
 import Ellips3 from '../assets/img/Ellips3.svg'
 // import Heroimg from '../assets/img/containeer.png'
 // import Heroimg from '../assets/img/Hero.jpeg'
-import Heroimg from '../assets/img/Heroimg.jpeg'
+// import Heroimg from '../assets/img/Heroimg.jpeg'
+import Heroimg from '../assets/img/Heroimg.png'
 import Hero from '../assets/img/Hero.jpeg'
 import About from './About'
 import Services from './Services'
@@ -25,14 +26,14 @@ const Home = () => {
           </h1>
 
           <h6 className="text-[#4C4C4C] pt-3 max-w-3xl text-base leading-6 font-normal font-Plus">
-          Discover a range of comprehensive healthcare services designed to enhance patient care and streamline hospital operations. From insurance and TPA empanelment to staffing solutions, we are here to support your healthcare journey.
+          Discuss a range of comprehensive healthcare services designed to enhance patients, from Ayushman empanelment, TPA, etc. We are here to support your healthcare journey
           </h6>
 
           <div className="relative w-full pt-6 lg:pt-16 pb-6 lg:pb-12">
             
             <div className=" rounded-xl overflow-hidden">
               <div className=" ">
-            <img src={Heroimg} alt="" className='w-full max-h-[400px] object-fit-contain' />
+            <img src={Heroimg} alt="" className='w-full max- h-[400px] object-f it-contain' />
 
               </div>
             {/* <img src={Hero} alt="" className='w-full' /> */}

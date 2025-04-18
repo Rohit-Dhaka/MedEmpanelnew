@@ -1,39 +1,78 @@
-import React from 'react'
+import React from 'react';
 import Ellipes21 from '../assets/img/Ellipes21.svg';
 import Ellipes22 from '../assets/img/Ellipes22.svg';
-import Tpa from '../assets/img/tpa-logo.jpg'
+import Tpa from '../assets/img/tpa-logo.jpg';
 
 const ServicesFour = () => {
   return (
-    <section className=" relative">
-    <img src={Ellipes21} alt="" className="absolute right-0 -top-[20%]" />
-    <img src={Ellipes22} alt="" className="absolute left-0 top-[20%]" />
-    <div className="container">
-      <div className=" flex flex-col items-center pt-[80px]">
-        <h2 className=" text-fs3xl font-Plus  font-semibold text-center max-w-[1000px]">
-        TPA Empanelment: Partner with
-          <span className="text-[#9064EE]">
-          Trusted Third-Party Administrators
-          </span>
-        </h2>
-        <div className=" flex justify-center">
-          <img src={Tpa} alt="" className="w-[60%]" />
+    <section className="relative bg-white px-4 py-20">
+      <img src={Ellipes21} alt="Background Ellipse Right" className="absolute right-0 -top-[20%] z-0" />
+      <img src={Ellipes22} alt="Background Ellipse Left" className="absolute left-0 top-[20%] z-0" />
+
+      <div className="container mx-auto relative z-10 max-w-5xl">
+        <div className="text-center">
+          <h2 className="text-3xl md:text-4xl font-bold font-Plus mb-6">
+            Raksha TPA Hospital Empanelment:
+            <span className="text-[#9064EE]"> Partner with Trusted TPAs</span>
+          </h2>
+
+          <div className="flex justify-center mb-6">
+            <img src={Tpa} alt="Raksha TPA Logo" className="w-3/4 md:w-1/2 rounded-lg shadow-lg" />
+          </div>
+
+          <p className="text-lg text-[#323232] mb-6">
+            Raksha TPA Hospital Empanelment refers to the process of a hospital becoming affiliated with Raksha TPA and being recognized as part of their network of empaneled hospitals. Empaneled hospitals can offer Raksha TPA services to their patients, providing them with comprehensive health insurance coverage and improved financial protection.
+          </p>
+
+          <p className="text-[#323232] mb-6">
+            To become empaneled with Raksha TPA, a hospital must meet certain criteria such as accreditation, quality standards, adequate infrastructure, and compliance with Raksha’s guidelines. Once empaneled, a hospital can benefit from:
+          </p>
+
+          <ul className="text-left list-disc list-inside text-[#323232] mb-6 max-w-3xl mx-auto">
+            <li>Increased patient reach through insurance coverage</li>
+            <li>Cashless and paperless treatment for insured patients</li>
+            <li>Timely and hassle-free claim settlements</li>
+            <li>Better patient satisfaction and trust</li>
+            <li>Commission-based earning potential</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold text-[#9064EE] mb-2">About Raksha TPA</h3>
+          <p className="text-[#323232] mb-6">
+            Raksha TPA is a leading Third-Party Administrator (TPA) in India, providing services like:
+          </p>
+
+          <ul className="text-left list-disc list-inside text-[#323232] mb-6 max-w-3xl mx-auto">
+            <li><strong>Claims Management:</strong> Handles health insurance claims efficiently</li>
+            <li><strong>Network Management:</strong> Maintains a network of hospitals and clinics</li>
+            <li><strong>Wellness Programs:</strong> Offers health check-ups and preventive care</li>
+            <li><strong>Customer Service:</strong> Helps patients with claims and queries</li>
+            <li><strong>Data Analytics:</strong> Improves efficiency and provides insights to insurers</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold text-[#9064EE] mb-2">Apply for Empanelment Online</h3>
+          <p className="text-[#323232] mb-6">
+            You can apply for Raksha TPA on your own or take assistance from a consultant. Here's the step-by-step process:
+          </p>
+
+          <ol className="text-left list-decimal list-inside text-[#323232] mb-6 max-w-3xl mx-auto">
+            <li>Fill the application form on Raksha TPA’s website</li>
+            <li>Upload the required documents</li>
+            <li>Respond to any clarification emails</li>
+            <li>Undergo hospital inspection if required</li>
+            <li>Receive final approval from Raksha TPA</li>
+          </ol>
+
+          <p className="text-[#323232] mb-6">
+            Handling these steps alone can be time-consuming — let our experts manage everything for you.
+          </p>
+
+          <button className="bg-[#9064EE] hover:bg-[#7a4be6] text-white px-6 py-3 rounded-full font-semibold transition duration-300 shadow-md">
+            Get Free Consultation
+          </button>
         </div>
-        <h6 className="max-w-[800px] text-lg text-[#323232] text-center pb-[120px]">
-        Expand your healthcare services by becoming an empaneled provider with Third-Party Administrators (TPAs). TPA empanelment allows hospitals and clinics to offer cashless and hassle-free treatment to insured patients, ensuring timely reimbursements and improved patient access to care.
-
-Benefits of TPA Empanelment:
-
-Access to a broader patient base with insurance coverage
-Cashless and paperless treatment for insured patients
-Timely and hassle-free claim settlements
-Enhanced credibility and patient trust in your facility
-Get Empaneled with TPAs Today! Improve patient access, enhance your facility’s reputation, and ensure seamless insurance claim processing by joining the TPA network.
-        </h6>
       </div>
-    </div>
-  </section>
-  )
-}
+    </section>
+  );
+};
 
-export default ServicesFour
+export default ServicesFour;
