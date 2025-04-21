@@ -1,5 +1,5 @@
 import React from "react";
-import Certificate from '../assets/img/Certificate_page-0001.jpg'
+import Certificate from '../assets/img/Certificate_page-0001.webp'
 
 const Aboutas = () => {
   return (

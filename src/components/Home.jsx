@@ -1,7 +1,7 @@
 import React from "react";
 import Ellipes4 from "../assets/img/Ellipes4.svg";
 import Ellips3 from "../assets/img/Ellips3.svg";
-import Heroimg from "../assets/img/Heroimg.png";
+import Heroimg from "../assets/img/Heroimg.webp";
 import Ellipes22 from "../assets/img/Ellipes22.svg";
 
 const Home = () => {

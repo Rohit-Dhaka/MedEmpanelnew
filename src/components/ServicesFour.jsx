@@ -1,7 +1,7 @@
 import React from 'react';
 import Ellipes21 from '../assets/img/Ellipes21.svg';
 import Ellipes22 from '../assets/img/Ellipes22.svg';
-import Tpa from '../assets/img/tpa-logo.jpg';
+import Tpa from '../assets/img/tpa-logo.webp';
 
 const ServicesFour = () => {
   return (

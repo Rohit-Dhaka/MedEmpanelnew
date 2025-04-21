@@ -3,7 +3,7 @@ import Ellipes21 from "../assets/img/Ellipes21.svg";
 import Ellipes22 from "../assets/img/Ellipes22.svg";
 import Ellipes23 from "../assets/img/Ellipse23.svg";
 import Group1 from "../assets/img/Group1.webp";
-import Group2 from "../assets/img/Right.jpg";
+import Group2 from "../assets/img/Right.webp";
 
 const About = () => {
   return (

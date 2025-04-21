@@ -1,6 +1,6 @@
 import React from "react";
 
-import PMJAY from "../assets/img/PMJAY-logo.png";
+import PMJAY from "../assets/img/PMJAY-logo.webp";
 import Ellipes21 from "../assets/img/Ellipes21.svg";
 import Ellipes22 from "../assets/img/Ellipes22.svg";
 

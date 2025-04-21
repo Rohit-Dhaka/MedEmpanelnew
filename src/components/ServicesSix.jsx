@@ -1,7 +1,7 @@
 import React from 'react'
 import Ellipes21 from '../assets/img/Ellipes21.svg';
 import Ellipes22 from '../assets/img/Ellipes22.svg';
-import Sofware from '../assets/img/sofware.png'
+import Sofware from '../assets/img/sofware.webp'
 const ServicesSix = () => {
   return (
     <section className=" relative">

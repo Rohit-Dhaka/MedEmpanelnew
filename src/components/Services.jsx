@@ -2,15 +2,17 @@ import React from "react";
 import Ellipes31 from "../assets/img/Ellipes31.svg";
 import Ellipes32 from "../assets/img/Ellipse32.svg";
 import { Link } from "react-router-dom";
-import PMJAY from "../assets/img/PMJAY-logo.png";
-import Enterlevel from "../assets/img/Enterlevel.jpeg";
-import Nabhlogo from "../assets/img/Nabhlogo.png";
-import Tpa from '../assets/img/tpa-logo.jpg'
-import RohiniLogo from '../assets/img/RohiniLogo.jpg'
-import Medical from '../assets/img/Medical.jpeg'
-import Hrservers from '../assets/img/Hrservers.jpeg'
-import Nabl from '../assets/img/Nabl.jpeg'
-import Sofware from '../assets/img/sofware.png'
+
+import PMJAY from "../assets/img/PMJAY-logo.webp";
+import Enterlevel from "../assets/img/Enterlevel.webp";
+
+import Nabhlogo from "../assets/img/Nabhlogo.webp";
+import Tpa from '../assets/img/tpa-logo.webp'
+import RohiniLogo from '../assets/img/RohiniLogo.webp'
+import Medical from '../assets/img/Medical.webp'
+import Hrservers from '../assets/img/Hrservers.webp'
+import Nabl from '../assets/img/Nabl.webp'
+import Sofware from '../assets/img/sofware.webp'
 const Services = () => {
   return (
     <section class="bg-[#EFEFEF] relative overflow-hidden ">

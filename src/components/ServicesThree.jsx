@@ -1,7 +1,8 @@
 import React from 'react'
 import Ellipes21 from '../assets/img/Ellipes21.svg';
 import Ellipes22 from '../assets/img/Ellipes22.svg';
-import Nabhlogo from '../assets/img/Nabhlogo.png'
+import Nabhlogo from '../assets/img/Nabhlogo.webp'
+
 
 const ServicesThree = () => {
   return (
