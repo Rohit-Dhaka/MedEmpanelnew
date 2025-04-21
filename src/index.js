@@ -20,6 +20,7 @@ import ServicesEight from './components/ServicesEight.jsx';
 import ServicesNine from './components/ServicesNine.jsx';
 import HomePages from './page/HomePages.jsx';
 import AyushmanInfo from './components/AyushmanInfo.jsx';
+import Aboutas from './components/Aboutas.jsx';
 
 
 
@@ -32,6 +33,7 @@ const router = createBrowserRouter(
       <Route path='' element={<HomePages/>} />
       <Route path='resources' element={<AyushmanInfo/>} />
       <Route path='about' element={<About />} />
+      <Route path='aboutas' element={<Aboutas />} />
       <Route path='contact' element={<Contact />} />
       <Route path='servicesOne' element={<ServicesOne/>}/>
       <Route path='servicesTwo' element={<ServicesTwo/>}/>
@@ -55,7 +57,4 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

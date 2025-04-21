@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Whatsapp } from "../common/icon";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Header() {
   const [show, setShow] = useState(false);
@@ -16,8 +18,7 @@ export default function Header() {
     setIsOpen(false);
     setShow(false)
   };
-
-  // Close dropdown if clicked outside
+  
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -28,6 +29,13 @@ export default function Header() {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
+  }, []);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation duration
+      once: true,     // whether animation should happen only once
+    });
   }, []);
 
   useEffect(() => {
@@ -56,8 +64,7 @@ export default function Header() {
 
           
           <div
-            className={`${
-              // show ? "right-0" : "right-[-100%]"
+            className={`${              
               show ? "shownav" : "hidenav"
             } flex max-lg:absolute max-lg:w-full  max-lg:h-screen max-lg:top-0 max-lg:flex-col max-lg:bg-white max-lg:text-white max-lg:z-10 max-lg:justify-center max-lg:items-center max-lg:transition-all max-lg:right-0 max-lg:duration-300 lg:gap-[215px] items-center`}
           >
@@ -75,7 +82,7 @@ export default function Header() {
               </li>
               <li>
                 <NavLink
-                  to="/about"
+                  to="/aboutas"
                   onClick={handlelink}
                   className={({ isActive }) =>
                     `block  duration-200 ${
@@ -142,28 +149,33 @@ export default function Header() {
                         className="block lg:py-1 px-3 text-black hover:bg-purple-200 duration-300"
                         onClick={handleClick}
                       >
-                        Insurance empanelment
+                        TPA empanelment
+                        
                       </NavLink>
                       <NavLink
                         to="/servicesFive"
                         className="block lg:py-1 px-3 text-black hover:bg-purple-200 duration-300"
                         onClick={handleClick}
                       >
-                        TPA empanelment
+                        NABL
+                        
                       </NavLink>
                       <NavLink
                         to="/servicesSix"
                         className="block lg:py-1 px-3 text-black hover:bg-purple-200 duration-300"
                         onClick={handleClick}
                       >
-                        NABL
+                        
+                        Hospital Software
+                        
                       </NavLink>
                       <NavLink
                         to="/servicesSeven"
                         className="block lg:py-1 px-3 text-black hover:bg-purple-200 duration-300"
                         onClick={handleClick}
                       >
-                        Hospital Software
+                        Insurance empanelment
+                        
                       </NavLink>
                       <NavLink
                         to="/servicesEight"

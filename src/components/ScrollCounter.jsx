@@ -11,7 +11,7 @@ const ScrollCounter = ({ target = 1000, duration = 1000 }) => {
         if (entry.isIntersecting && !hasAnimated.current) {
           hasAnimated.current = true;
           let start = 0;
-          const increment = target / (duration / 16); // 60fps ~16ms/frame
+          const increment = target / (duration / 16); 
 
           const animate = () => {
             start += increment;
