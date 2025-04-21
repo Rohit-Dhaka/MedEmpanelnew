@@ -199,7 +199,7 @@ const Footer = () => {
                 href="tel:+8950960627"
                 class="text-[#CCCCCC] text-md leading-[24px] fw-normal font-Plus"
               >
-                +8950960627
+                +91 8950960627
               </a>
             </div>
             <div class="flex gap-3 align-items-center pt-2">

@@ -223,7 +223,7 @@ export default function Header() {
 
             {/* Contact Us Button */}
             <button className="mt-6 lg:mt-0 bg-[#9561ED] text-white font-bold px-8 py-4 rounded-full font-Plus hover:bg-[#7c4ddb] transition" onClick={handlelink}>
-            <a href="tel:+8950960627" class="text-white text-md leading-[24px] fw-normal font-Plus flex gap-2 items-center"> <Whatsapp/> +8950960627</a>
+            <a href="tel:+8950960627" class="text-white text-md leading-[24px] fw-normal font-Plus flex gap-2 items-center"> <Whatsapp/> +91 8950960627</a>
             </button>
           </div>
 
