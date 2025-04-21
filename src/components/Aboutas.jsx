@@ -1,5 +1,7 @@
 import React from "react";
 import Certificate from '../assets/img/Certificate_page-0001.webp'
+import Certificate2 from '../assets/img/HR Certificate.pdf-2_page-0001.jpg'
+
 
 const Aboutas = () => {
   return (
@@ -68,9 +70,15 @@ const Aboutas = () => {
             <p>Imges</p>
           </div>
         </div>
+        
         <div className=" lg:pb-[160px] sm:pb-[100px] pb-16 flex justify-center" data-aos="fade-up">
             <div className="sm:w-[80%] ">
                 <img src={Certificate} alt="" className="w-full sm:h-[80vh] rounded-2xl" />
+            </div>
+        </div>
+        <div className=" lg:pb-[160px] sm:pb-[100px] pb-16 flex justify-center" data-aos="fade-up">
+            <div className="sm:w-[80%] ">
+                <img src={Certificate2} alt="" className="w-full sm:h-[80vh] rounded-2xl" />
             </div>
         </div>
       </div>
