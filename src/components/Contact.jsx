@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className="">
       <div className="container">
-        <div className="flex flex-wrap flex-row mx-[-12px] items-center lg:py-32 pb-16 sm:pb-24">
+        <div className="flex flex-wrap flex-row mx-[-12px] items-center lg:py-20 pb-16 sm:pb-24">
           <div className="md:w-6/12 w-full px-3">
             <div className="p-6 mr-2 bg-gray-100 rounded-lg " data-aos="fade-right">
               <h1 className="text-3xl sm:text-4xl text-gray-800 font-extrabold tracking-tight">

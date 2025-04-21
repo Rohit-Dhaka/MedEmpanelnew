@@ -36,8 +36,9 @@ const Aboutas = () => {
         <div className="flex flex-row flex-wrap-reverse mx-[-12px]   items-center lg:pb-[180px] sm:pb-[100px] pb-16 pt-[100px]">
           <div className="lg:w-7/12 w-full px-3" data-aos="fade-up">
               <strong className="font-Plus text-[25px] font-bold ">Director:- </strong>
-            <p className="text-[18px] text-[#4C4C4C] pt-3 leading-6 tracking-[2px] text-justify hidden  font-Plus max-lg:pt-[60px] ">
-              Mr Ankit Bansal is working as a founder and director of the
+              
+            {/* <span className="text-[18px] text-[#4C4C4C] pt-3 leading-6 tracking-[2px] text-justify hidden  font-Plus max-lg:pt-[60px] ">
+               is working as a founder and director of the
               company having 2+ year of experience in the consultancy company
               and Hospitals. He has completed his MBA in human resource and
               hospital administration from Maharishi Markandeshwar University,
@@ -49,8 +50,8 @@ const Aboutas = () => {
               building Long-Term Relationships with Our Clients, based on the
               Best Professional’s Ethics & Providing Quality Services –
               Economical and Efficient.
-            </p>
-            <p className="text-[16px] text-[#4C4C4C] pt-3 leading-6 text-justify  font-Plus max-lg:pt-[60px] tracking-[1px] ">Mr Ankit Bansal is working as a founder and director of the
+            </span> */}
+            <p className="text-[16px] text-[#4C4C4C] pt-3 leading-6 text-justify  font-Plus max-lg:pt-[60px] tracking-[1px] "><span className=" font-bold">Mr Ankit Bansal</span> is working as a founder and director of the
               company having 2+ year of experience in the consultancy company
               and Hospitals. </p>
             <p className="text-[16px] text-[#4C4C4C] pt-3 leading-6 text-justify  font-Plus max-lg:pt-[60px] tracking-[1px] ">He has completed his MBA in human resource and

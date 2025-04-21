@@ -10,7 +10,7 @@ const AyushmanInfo = () => {
     <>
       <section className=" bg-[#EFEFEF]">
         <div className="container">
-          <div className="flex flex-row flex-wrap-reverse mx-[-12px] md:py-[120px] py-16 items-center">
+          <div className="flex flex-row flex-wrap-reverse mx-[-12px] md:pt-[80px]  py-16 items-center">
             <div className="md:w-6/12 w-full px-3 md:pt-0 pt-10">
               <h2 className="text-[52px] font-Plus leading-[110%] font-bold" data-aos="fade-right">
                 <span className=" md:inline-block">
@@ -23,7 +23,7 @@ const AyushmanInfo = () => {
               <img src={GraphicOne} alt="graphic" className="w-full" />
             </div>
           </div>
-          <div className="flex flex-row  flex-wrap mx-[-12px] md:py-[120px] py-16 items-center">
+          <div className="flex flex-row  flex-wrap mx-[-12px] md:pb-[80px] py-16 items-center">
             <div className="md:w-6/12 w-full px-3" data-aos="fade-right">
               <img src={GraphicTwo} alt="graphic" />
             </div>
@@ -39,7 +39,7 @@ const AyushmanInfo = () => {
       </section>
       <section>
         <div className="container">
-          <div className="box sm:my-[152px] my-16 bg-[#8E66EF] px-4 rounded-[16px] relative"  data-aos="fade-up">
+          <div className="box sm:my-[80px] my-16 bg-[#8E66EF] px-4 rounded-[16px] relative"  data-aos="fade-up">
             <img
               src={Layer3}
               alt="layer"
