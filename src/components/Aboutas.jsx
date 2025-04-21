@@ -15,7 +15,7 @@ const Aboutas = () => {
                 <span className="w-16 h-1 bg-[#9064EE] block"></span>
             </h2>
             <div className="flex justify-center">
-            <p className="text-[16px] text-[#4C4C4C] pt-3 leading-[24px]  text-justify font-Plus w-[80%]" data-aos="fade-up">
+            <p className="text-[16px] text-[#4C4C4C] pt-3 leading-[24px]  text-justify font-Plus sm:w-[80%]" data-aos="fade-up">
               Medempanel is one of the best leading medical consultancy solution
               engaged in empanelment in all over india, here we are effective
               link between the hospitals and empanelment of all the types With a
@@ -37,32 +37,19 @@ const Aboutas = () => {
           <div className="lg:w-7/12 w-full px-3" data-aos="fade-up">
               <strong className="font-Plus text-[25px] font-bold ">Director:- </strong>
               
-            {/* <span className="text-[18px] text-[#4C4C4C] pt-3 leading-6 tracking-[2px] text-justify hidden  font-Plus max-lg:pt-[60px] ">
-               is working as a founder and director of the
-              company having 2+ year of experience in the consultancy company
-              and Hospitals. He has completed his MBA in human resource and
-              hospital administration from Maharishi Markandeshwar University,
-              situated in Mullana (Ambala). He has expertise in Auditing, like
-              Ayushman Empanelment, NABH Accredidaition Management in
-              superspeciality Hospitals . He has a team of extremely talented
-              sincere devoted And efficient professional specialized in
-              Recommending suitable steps for hospital benifits. He believes in
-              building Long-Term Relationships with Our Clients, based on the
-              Best Professional’s Ethics & Providing Quality Services –
-              Economical and Efficient.
-            </span> */}
+          
             <p className="text-[16px] text-[#4C4C4C] pt-3 leading-6 text-justify  font-Plus max-lg:pt-[60px] tracking-[1px] "><span className=" font-bold">Mr Ankit Bansal</span> is working as a founder and director of the
               company having 2+ year of experience in the consultancy company
               and Hospitals. </p>
-            <p className="text-[16px] text-[#4C4C4C] pt-3 leading-6 text-justify  font-Plus max-lg:pt-[60px] tracking-[1px] ">He has completed his MBA in human resource and
+            <p className="text-[16px] text-[#4C4C4C] pt-3 leading-6 text-justify  font-Plus max-lg:pt-6 tracking-[1px] ">He has completed his MBA in human resource and
               hospital administration from Maharishi Markandeshwar University,
               situated in Mullana (Ambala). He has expertise in Auditing, like
               Ayushman Empanelment, NABH Accredidaition Management in
               superspeciality Hospitals .</p>
-            <p className="text-[16px] text-[#4C4C4C] pt-3 leading-6 text-justify  font-Plus max-lg:pt-[60px] tracking-[1px] "> He has a team of extremely talented
+            <p className="text-[16px] text-[#4C4C4C] pt-3 leading-6 text-justify  font-Plus max-lg:pt-6 tracking-[1px] "> He has a team of extremely talented
               sincere devoted And efficient professional specialized in
               Recommending suitable steps for hospital benifits. </p>
-            <p className="text-[16px] text-[#4C4C4C] pt-3 leading-6 text-justify  font-Plus max-lg:pt-[60px] tracking-[1px] "> He believes in
+            <p className="text-[16px] text-[#4C4C4C] pt-3 leading-6 text-justify  font-Plus max-lg:pt-6tracking-[1px] "> He believes in
               building Long-Term Relationships with Our Clients, based on the
               Best Professional’s Ethics & Providing Quality Services –
               Economical and Efficient.</p>
