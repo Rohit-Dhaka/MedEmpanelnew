@@ -15,7 +15,7 @@ const Aboutas = () => {
                 <span className="w-16 h-1 bg-[#9064EE] block"></span>
             </h2>
             <div className="flex justify-center">
-            <p className="text-[16px] text-[#4C4C4C] pt-3 leading-[24px]  text-justify font-Plus sm:w-[80%]" data-aos="fade-up">
+            <p className="text-[16px] text-[#4C4C4C] pt-3 leading-[24px]  text-justify font-Plus " data-aos="fade-up">
               Medempanel is one of the best leading medical consultancy solution
               engaged in empanelment in all over india, here we are effective
               link between the hospitals and empanelment of all the types With a
