@@ -227,10 +227,11 @@ const Footer = () => {
                 <EmailIcon />
               </a>
               <a
-                href="mailto:info@noblemindit.gmail.com"
+                href="mailto:Info@medempanel.com"
                 class="text-[#CCCCCC] text-md leading-[24px] fw-normal font-Plus  "
               >
-                info@medempanel.gmail.com
+                
+                Info@medempanel.com
               </a>
             </div>
           </div>

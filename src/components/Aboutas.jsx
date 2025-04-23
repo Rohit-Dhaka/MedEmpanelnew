@@ -1,13 +1,13 @@
 import React from "react";
 import Certificate from '../assets/img/Certificate_page-0001.webp'
 import Certificate2 from '../assets/img/HR Certificate.pdf-2_page-0001.jpg'
-
+import Dirimg from '../assets/img/Dirimg.png'
 
 const Aboutas = () => {
   return (
     <section>
       <div className="container">
-        <div className=" pt-10 lg:pt-36 pb-20 lg:pb-36">
+        <div className=" pt-10 lg:pt-36 pb-10  ">
           
             <h2 className="text-3xl lg:text-4xl text-center font-bold leading-[52px] text-black font-sans flex items-center justify-center gap-2" data-aos="fade-up">
                 <span className="w-16 h-1 bg-[#9064EE] block"></span>
@@ -33,7 +33,7 @@ const Aboutas = () => {
             </div>
           </div>
         
-        <div className="flex flex-row flex-wrap-reverse mx-[-12px]   items-center lg:pb-[180px] sm:pb-[100px] pb-16 pt-[100px]">
+        <div className="flex flex-row flex-wrap-reverse mx-[-12px]   items-center lg:pb-[180px] sm:pb-[100px] pb-16 ">
           <div className="lg:w-7/12 w-full px-3" data-aos="fade-up">
               <strong className="font-Plus text-[25px] font-bold ">Director:- </strong>
               
@@ -55,7 +55,7 @@ const Aboutas = () => {
               Economical and Efficient.</p>
           </div>
           <div className="lg:w-5/12 w-full px-3 " data-aos="fade-up">
-            <p>Imges</p>
+            <img src={Dirimg} alt="img" className="w-full" />
           </div>
         </div>
         

@@ -6,7 +6,7 @@ import Ellipes22 from "../assets/img/Ellipes22.svg";
 
 const Home = () => {
   return (
-    <section className="relative">
+    <section className="relative ">
       <img src={Ellipes22} alt="ellopes" className="absolute left-0 top-[-10%] z-[-1] " />
       <div className="container  ">
         <div className="flex flex-col items-center text-center max-sm:pb-16">

@@ -52,8 +52,10 @@ export default function Header() {
       
 
   return (
-    <header className="  z-50 top-0  relative">
-      <nav className="bg-white border-gray-200 px-4 lg:px-6 py-6">
+    <>
+    
+    <header className="  z-50 top-0  fixed shadow-xl w-full ">
+      <nav className="bg-white border-gray-200 px-4 lg:px-6 sm:py-6 py-3">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center">
           <div className="">
@@ -251,5 +253,7 @@ export default function Header() {
         </div>
       </nav>
     </header>
+    <div className="pb-[100px] "></div>
+    </>
   );
 }
