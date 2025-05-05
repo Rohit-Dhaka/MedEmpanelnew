@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer class="bg-black overflow-hidden">
       <div class="container">
-        <div class="flex flex-row flex-wrap mx-[-12px] md:pt-[91px]  lg:pb-[153px] pt-5 pb-4 pb-md-5">
+        <div class="flex flex-row flex-wrap mx-[-12px] md:pt-[91px]  lg:pb-[90px] pt-5 pb-4 pb-md-5">
           <div class="lg:w-4/12 w-full z-1  px-3">
             {/* <img src="./assets/img/footerlogo.svg" alt="logo-image"> */}
             <a href="" className="text-white">
@@ -240,7 +240,7 @@ const Footer = () => {
           href=""
           class="text-white py-[25px] block text-center  text-sm leading-[21px] opacity-75  border-t-[1px] border-[#A854E9]  font-Plus"
         >
-          © {year} . All Rights Reserved.
+          © 2023 . All Rights Reserved.
         </a>
       </div>
     </footer>

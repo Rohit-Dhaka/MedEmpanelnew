@@ -62,7 +62,7 @@ const ServicesTwo = () => {
               <li>Application review and issuance of tracking reference</li>
               <li>Pre-assessment by NABH inspectors</li>
               <li>Final assessment after improvements</li>
-              <li>Accreditation valid for 3 years</li>
+              <li>Accreditation valid for 2 years</li>
               <li>Reassessment must be done 6 months before expiry</li>
             </ol>
           </div>

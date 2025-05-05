@@ -1,7 +1,7 @@
 import React from "react";
 import Certificate from '../assets/img/Certificate_page-0001.webp'
 import Certificate2 from '../assets/img/HR Certificate.pdf-2_page-0001.jpg'
-import Dirimg from '../assets/img/Dirimg.png'
+import Dirimg from '../assets/img/th.jpg'
 
 const Aboutas = () => {
   return (
